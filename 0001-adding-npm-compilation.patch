@@ -1,0 +1,28 @@
+From 0f3e4912e13deb481c67ccddae7c7bf2bcb6f8c0 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Mon, 1 Feb 2021 18:10:27 +0800
+Subject: [PATCH] adding npm compilation
+
+Signed-off-by: Marco A. Gutierrez <marco@openrobotics.org>
+---
+ debian/rules.em | 3 +++
+ 1 file changed, 3 insertions(+)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index 690cd19..b6ec6ab 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -37,7 +37,10 @@ override_dh_auto_build:
+ 	# In case we're installing to a non-standard location, look for a setup.sh
+ 	# in the install tree and source it.  It will set things like
+ 	# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
++	
+ 	if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.sh"; fi && \
++	npm install --prefix static/
++	npm run build --prefix static/
+ 	dh_auto_build
+ 
+ override_dh_auto_test:
+-- 
+2.25.1
+
