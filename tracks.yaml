@@ -97,5 +97,5 @@ tracks:
     release_tag: :{version}
     ros_distro: rolling
     vcs_type: git
-    vcs_uri: https://github.com/osrf/rmf_demos.git
+    vcs_uri: https://github.com/marcoag/rmf_demos.git
     version: :{auto}
