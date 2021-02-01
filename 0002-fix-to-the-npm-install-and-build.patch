@@ -1,0 +1,28 @@
+From 3c3babb1d2dcb87cb34bb69ebef3b5c50b7517d5 Mon Sep 17 00:00:00 2001
+From: "Marco A. Gutierrez" <marco@openrobotics.org>
+Date: Mon, 1 Feb 2021 21:10:33 +0800
+Subject: [PATCH 2/2] fix to the npm install and build
+
+Signed-off-by: Marco A. Gutierrez <marco@openrobotics.org>
+---
+ debian/rules.em | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+diff --git a/debian/rules.em b/debian/rules.em
+index b6ec6ab..e97e5c2 100755
+--- a/debian/rules.em
++++ b/debian/rules.em
+@@ -39,8 +39,8 @@ override_dh_auto_build:
+ 	# CMAKE_PREFIX_PATH, PKG_CONFIG_PATH, and PYTHONPATH.
+ 	
+ 	if [ -f "@(InstallationPrefix)/setup.sh" ]; then . "@(InstallationPrefix)/setup.sh"; fi && \
+-	npm install --prefix static/
+-	npm run build --prefix static/
++	npm install --prefix rmf_demo_panel/static/
++	npm run build --prefix rmf_demo_panel/static/
+ 	dh_auto_build
+ 
+ override_dh_auto_test:
+-- 
+2.25.1
+

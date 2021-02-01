@@ -1,7 +1,7 @@
-From 2ddace9a421bac3b618fda877c3edd2024219a69 Mon Sep 17 00:00:00 2001
+From 24152610fcb3678d6cad7ea0762af3e9b3707eb2 Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Mon, 1 Feb 2021 18:10:27 +0800
-Subject: [PATCH] adding npm compilation
+Subject: [PATCH 1/2] adding npm compilation
 
 Signed-off-by: Marco A. Gutierrez <marco@openrobotics.org>
 ---
