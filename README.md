@@ -1,3 +1,36 @@
+## rmf_demos (rolling) - 1.9999.0-14
+
+The packages in the `rmf_demos` repository were released into the `rolling` distro by running `/usr/local/bin/bloom-release --rosdistro rolling --track rolling rmf_demos --override-release-repository-url https://github.com/marcoag/rmf_demos-release.git` on `Mon, 08 Feb 2021 06:28:23 -0000`
+
+These packages were released:
+- `demos`
+- `rmf_demo_assets`
+- `rmf_demo_maps`
+- `rmf_demo_panel`
+- `rmf_demo_tasks`
+- `rmf_demos_dashboard_resources`
+- `rmf_gazebo_plugins`
+- `rmf_ignition_plugins`
+- `rmf_plugins_common`
+- `rmf_rviz_plugin`
+
+Version of package(s) in repository `rmf_demos`:
+
+- upstream repository: https://github.com/osrf/rmf_demos.git
+- release repository: https://github.com/marcoag/rmf_demos-release.git
+- rosdistro version: `1.9999.0-13`
+- old version: `1.9999.0-13`
+- new version: `1.9999.0-14`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## rmf_demos (rolling) - 1.9999.0-13
 
 The packages in the `rmf_demos` repository were released into the `rolling` distro by running `/usr/local/bin/bloom-release --rosdistro rolling --track rolling rmf_demos --override-release-repository-url https://github.com/marcoag/rmf_demos-release.git` on `Fri, 05 Feb 2021 08:01:21 -0000`
