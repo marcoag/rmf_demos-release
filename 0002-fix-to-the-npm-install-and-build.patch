@@ -1,4 +1,4 @@
-From 7fa160ee33de0923e25a867fa4bff4871aec442e Mon Sep 17 00:00:00 2001
+From ae44260cbd05f279bc3b0977641522a205fb2190 Mon Sep 17 00:00:00 2001
 From: "Marco A. Gutierrez" <marco@openrobotics.org>
 Date: Mon, 1 Feb 2021 21:10:33 +0800
 Subject: [PATCH 2/2] fix to the npm install and build
