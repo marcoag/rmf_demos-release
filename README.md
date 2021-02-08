@@ -16,7 +16,7 @@ These packages were released:
 
 Version of package(s) in repository `rmf_demos`:
 
-- upstream repository: https://github.com/marcoag/rmf_demos.git
+- upstream repository: https://github.com/osrf/rmf_demos.git
 - release repository: https://github.com/marcoag/rmf_demos-release.git
 - rosdistro version: `1.9999.0-12`
 - old version: `1.9999.0-12`
